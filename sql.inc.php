@@ -10,7 +10,7 @@
                             MYSQL_DATENBANK);
     mysqli_set_charset($db_link, 'utf8');
     // Tiny API Key
-    $tinykey = '';
+    $tinykey = 'Tiny_API_Key';
     // Einbindung Bootstrap im Header
     $bootstrap_css = '<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">';
     $bootstrap_js = '<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>';
