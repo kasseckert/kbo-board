@@ -24,3 +24,6 @@
 2. Upload aller Daten auf den eigenen Webspace.
 3. Schreibrechte für die Datei `kbo_text.cfg` vergeben (`chmod 777`).
 4. Im Verzeichnis `images` eine Bilddatei des eigenen Schullogos hochladen. Der Dateiname `logo.png` darf nicht geändert werden. 
+
+## Anwendung  
+- 
