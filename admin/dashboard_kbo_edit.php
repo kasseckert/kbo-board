@@ -1,9 +1,5 @@
 <?php
-require_once ('../sql.inc.php');
-//
-// Tiny API Key
-// 7blguhqt8uursc0fxrezzrfza894dclvb15srp9ubp5e28o0
-//
+	require_once ('../sql.inc.php');
 ?>
 
 <!DOCTYPE html>
