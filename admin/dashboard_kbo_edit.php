@@ -9,7 +9,7 @@
     <title>KBO Admin</title>
     <meta charset="utf-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="https://cdn.tiny.cloud/1/7blguhqt8uursc0fxrezzrfza894dclvb15srp9ubp5e28o0/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+	<script src="https://cdn.tiny.cloud/1/<?php echo tinykey;?>/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
     <?php
         echo $bootstrap_css;
         echo $bootstrap_js;
