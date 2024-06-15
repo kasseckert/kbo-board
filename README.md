@@ -23,7 +23,9 @@
 1. In der Datei `sql.inc.php` erfolgt der Eintrag der Zugangsdaten zur MySQL-Datenbank (Host, Benutzername, Passwort, Datenbankname) und der Tiny API Key.
 2. Upload aller Daten auf den eigenen Webspace.
 3. Schreibrechte für die Datei `kbo_text.cfg` vergeben (`chmod 777`).
-4. Im Verzeichnis `images` eine Bilddatei des eigenen Schullogos hochladen. Der Dateiname `logo.png` darf nicht geändert werden. 
+4. Im Verzeichnis `images` eine Bilddatei des eigenen Schullogos hochladen. Der Dateiname `logo.png` darf nicht geändert werden. Ebenso mit dem Dateinamen `kbo.png` einen QR-Code auf den Link `https://[Webserver]/index.php` als Bilddatei im Verzeichnis hinterlegen.
 
 ## Anwendung  
-- 
+- Aufruf der Ansicht für den Monitor über `index-monitor.php`.
+- Aufruf der Ansicht für ein Smartphone (QR-Code) oder sonstigem Gerät über `index.php`.
+- Inhalte ändern oder einpflegen über `admin/dashboard_kbo_edit.php`. 
